@@ -29,6 +29,11 @@ body{
     overflow: hidden;
 
     transition: transform ease-in-out .5s;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .up{
@@ -37,7 +42,7 @@ body{
 
 .validate-button {
   padding: 15px 400px;
-  margin: 50px 4px;
+  margin-bottom: 10px;
   color: var(--walnut-brown);
   font-family: sans-serif;
   text-transform: uppercase;
@@ -45,6 +50,8 @@ body{
   position: relative;
   text-decoration: none;
   display: inline-block;
+
+  background-color: transparent;
 }
 
 .validate-button {
@@ -82,9 +89,13 @@ body{
   -webkit-transition: all 0.4s cubic-bezier(0.7, 0.25, 0, 1);
   transition: all 0.4s cubic-bezier(0.7, 0.25, 0, 1);
 }
+
+/*OK*/
 .validate-button:hover::after {
   width: 100%;
 }
+
+/*OK*/
 .validate-button:hover {
   border-left: 2px solid var(--claret);
   border-right: 2px solid var(--claret);
