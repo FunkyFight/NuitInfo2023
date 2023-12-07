@@ -16,7 +16,6 @@ function drawImage(context, x, y, img) {
 
 
 class CanvasManager {
-
     
     constructor(context, width, height) {
         this.context = context;
