@@ -13,3 +13,7 @@ function showContent(){
     canvasContainer.classList.add("up")
     contentContainer.classList.add("up")
 }
+
+function entreeClick(){
+    showContent()
+}

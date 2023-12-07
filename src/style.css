@@ -19,12 +19,6 @@ body{
     color: var(--walnut-brown);
 }
 
-.sous-question {
-  margin-left: 40px;
-  margin-right: 40px;
-  text-align: center;
-}
-
 #canvas-container{
     background-color: blue;
     height: 66vh;
@@ -53,12 +47,12 @@ body{
 
 
 canvas{
-    background-color: brown;
+    background-color: var(--cosmic-latte);
 }
 
 .question {
-    font-size: 4em;
-    margin: 0px;
+    font-size: 3.5em;
+    margin: 25px;
 
     text-align: center;
 }

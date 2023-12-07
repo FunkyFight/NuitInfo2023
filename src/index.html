@@ -15,13 +15,13 @@
             <canvas height="500" width="500" id="main-canvas"></canvas>
         </div>
         <div id="content-container">
-            <div>
+            <div style="display: none;">
                 <button onclick="showCanvas()">canvas</button>
                 <button onclick="showContent()">content</button>
             </div>
-            <h2 class="question">Question du minijeu</h2>
-            <input type="text" name="Entrée" id="entree">
-            <button href="#" class="validate-button">Continuer</button>
+            <h2 class="question">D'après vous, quel est la moyenne de CO2 émise pas un avion sur un trajet moyen ?</h2>
+            <input type="text" name="Entrée" id="entree" onclick="entreeClick()">
+            <button href="#" class="validate-button" onclick="showCanvas()">Continuer</button>
         </div>
 
         <script src="script.js"></script>
