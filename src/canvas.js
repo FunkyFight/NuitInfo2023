@@ -13,9 +13,6 @@ function draw() {
     let canvas = document.getElementById("main-canvas")
     let canvasContainer = document.getElementById("canvas-container")
 
-    canvas.setAttribute("width", canvasContainer.offsetWidth)
-    canvas.setAttribute("height", canvasContainer.offsetHeight)
-
     let context = canvas.getContext("2d")
     const root = new CanvasManager(context, canvas.width, canvas.height)
 
@@ -24,7 +21,10 @@ function draw() {
 
 
     setInterval(function() {
+        canvas.setAttribute("width", canvasContainer.offsetWidth)
+        canvas.setAttribute("height", canvasContainer.offsetHeight)
         root.renderAll()
+        
     }, 10)
 
 
