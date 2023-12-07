@@ -39,3 +39,8 @@ body{
 /* media queries */
 
 /* les animations */
+
+
+canvas{
+    background-color: brown;
+}
