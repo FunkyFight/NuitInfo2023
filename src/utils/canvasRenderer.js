@@ -9,6 +9,11 @@ function drawRectangle(context, x, y, w, h) {
     
 }
 
+function drawImage(context, x, y, img) {
+    context.drawImage(img, x, y);
+    
+}
+
 
 class CanvasManager {
 
@@ -34,7 +39,6 @@ class CanvasManager {
         this.context.clearRect(0, 0, this.width, this.height);
         
         for(let object of this.objects) {
-            console.log(object)
             object.render(this.context);
         }
     }
@@ -49,20 +53,53 @@ class CanvasObject {
     static id = 0;
     
     instanceId = -1;
+    rotation = 0;
     constructor(x, y) {
         this.x = x;
         this.y = y;
         CanvasObject.id++;
         this.instanceId = CanvasObject.id;
     }
+    
 
     render(context) {
-
+        context.translate(this.x, this.y)
+        context.rotate(this.rotation)
+        context.translate(-this.x, -this.y)
     }
 
     move(deltaX, deltaY) {
         this.x += deltaX
         this.y += deltaY
+    }
+
+    rotate(degree) {
+        this.rotation = degree * (Math.PI/180)
+    }
+
+    endRender(context) {
+        context.translate(this.x, this.y)
+        context.rotate(-this.rotation)
+        context.translate(-this.x, -this.y)
+    }
+
+    animateOnce(animation, delay, duration) {
+        let step = 1/duration
+        let current = 0;
+
+        let cx = this.x
+        let cy = this.y
+        let crot = this.rotation
+
+        let inter = setInterval(() => {
+            current += step;
+
+            if(current > 1) {
+                clearInterval(inter)
+            }
+
+            animation(easeInOutQuart(current), [cx, cy, crot])
+        }, 1)
     }
 }
 
@@ -78,8 +115,41 @@ class Square extends CanvasObject {
     }
 
     render(context) {
+        super.render(context)
         drawSquare(context, this.x, this.y, this.size, this.color)
+        this.endRender(context)
+    }
+}
+
+class CanvasImage extends CanvasObject {
+
+    image;
+    constructor(x, y, url) {
+        super(x, y)
+        this.url = url;
+
+        this.image = new Image()
+        this.isLoaded = false;
+
+        this.image.onload = () => {
+            this.isLoaded = true
+        }
+        this.image.src = url;
     }
 
-    
+    render(context) {
+        if(this.isLoaded) {
+            super.render(context)
+            drawImage(context, this.x, this.y, this.image)
+            this.endRender(context)
+        }
+    }
+}
+
+
+/**
+ * Easing
+ */
+function easeInOutQuart(x) {
+    return x < 0.5 ? 8 * x * x * x * x : 1 - Math.pow(-2 * x + 2, 4) / 2;
 }

@@ -1,6 +1,6 @@
 // Attributs
 let context;
-let square;
+let voiture;
 
 /**
  * Fonction principale
@@ -14,18 +14,25 @@ function draw() {
     let context = canvas.getContext("2d")
     const root = new CanvasManager(context, canvas.width, canvas.height)
 
-    square = new Square(10, 10, 50, "rgb(253, 121, 168)");
-    root.addObject(square)
+    voiture = new CanvasImage(2, 2, "./img/voiture.png")
+    root.addObject(voiture)
 
 
     setInterval(function() {
         root.renderAll()
     }, 10)
+
+
+    
 }
 
 document.onkeydown = function(ev) {
-    if(ev.code == "ArrowRight") {
-        console.log("Right")
-        square.move(5, 0)
+    switch(ev.code) {
+        case "ArrowRight":
+            voiture.move(5, 0)
+            break;
+        case "ArrowLeft":
+            voiture.move(-5, 0)
+            break;
     }
 }
