@@ -13,6 +13,9 @@ body{
     overflow: hidden;
 
     background-color: var(--papaya-whip);
+
+    font-family: "lato", open-sans;
+    color: var(--walnut-brown);
 }
 
 #canvas-container{
@@ -32,8 +35,9 @@ body{
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-direction: column;
+    position: relative;
 }
 
 .up{
@@ -45,18 +49,28 @@ canvas{
     background-color: brown;
 }
 
-.validate-button {
-  padding: 15px 400px;
-  margin-bottom: 10px;
-  color: var(--walnut-brown);
-  font-family: sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  position: relative;
-  text-decoration: none;
-  display: inline-block;
+.question {
+    font-size: 4em;
+    margin: 0px;
 
-  background-color: transparent;
+    text-align: center;
+}
+
+.validate-button {
+    padding: 15px 400px;
+    margin-bottom: 10px;
+    color: var(--walnut-brown);
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+
+    background-color: transparent;
+
+    position: absolute;
+    bottom: 0;
 }
 
 .validate-button {
