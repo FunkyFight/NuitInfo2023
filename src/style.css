@@ -6,6 +6,9 @@
     --walnut-brown: #64594E;
     --mantis: #7ABA6B;
     --cosmic-latte: #FFF7E4;
+    --dark-cyan: #2C8B87;
+    --pistachio: #91D464;
+    --dogwood-rose: #C83166;
 }
 
 body{
@@ -137,6 +140,45 @@ canvas{
   font-size: 1.5em;
 }
 
-#entree:focus{
+#entree:focus #button3:focus #button2:focus{
   outline: none;
+}
+
+.Buttons {
+  display: flex;
+
+}
+
+.button2 {
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: var(--mantis);
+  border-radius: 6px;
+  color: var(--cosmic-latte);
+  border-style: none;
+}
+
+.button3 { 
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: var(--claret);
+  border-radius: 6px;
+  color: var(--cosmic-latte);
+  border-style: none;
+}
+
+.button2:hover{
+  background-color: var(--pistachio);
+}
+
+.button3:hover{
+  background-color: var(--dogwood-rose);
 }
