@@ -1,0 +1,41 @@
+:root{
+    --tea-green: #CCD5AE;
+    --beige: #E9EDC9;
+    --claret: #820933;
+    --papaya-whip: #FAEDCD;
+    --walnut-brown: #64594E;
+    --mantis: #7ABA6B;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    overflow: hidden;
+
+    background-color: var(--papaya-whip);
+}
+
+#canvas-container{
+    background-color: blue;
+    height: 66vh;
+    overflow: hidden;
+
+    transition: transform ease-in-out .5s;
+}
+
+#content-container{
+    background-color: var(--papaya-whip);
+    height: 67vh;
+    overflow: hidden;
+
+    transition: transform ease-in-out .5s;
+}
+
+.up{
+    transform: translateY(-33vh);
+}
+/* 
+
+/* media queries */
+
+/* les animations */

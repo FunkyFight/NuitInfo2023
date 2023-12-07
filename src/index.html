@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuit de l'info 2023</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body onload="draw()">
-    <canvas height="500" width="500" id="main-canvas"></canvas>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nuit de l'info 2023</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="draw()">
+        <div id="canvas-container">
+            <canvas height="500" width="500" id="main-canvas"></canvas>
+        </div>
+        <div id="content-container">
+            <button onclick="showCanvas()">canvas</button>
+            <button onclick="showContent()">content</button>
 
-<script src="./utils/canvasRenderer.js"></script>
-<script src="canvas.js"></script>
+        </div>
+
+        <script src="script.js"></script>
+        <script src="./utils/canvasRenderer.js"></script>
+        <script src="canvas.js"></script>
+    </body>
 </html>
