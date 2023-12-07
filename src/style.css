@@ -5,6 +5,7 @@
     --papaya-whip: #FAEDCD;
     --walnut-brown: #64594E;
     --mantis: #7ABA6B;
+    --cosmic-latte: #FFF7E4;
 }
 
 body{
@@ -16,6 +17,12 @@ body{
 
     font-family: "lato", open-sans;
     color: var(--walnut-brown);
+}
+
+.sous-question {
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
 }
 
 #canvas-container{
@@ -121,3 +128,15 @@ canvas{
   color: var(--walnut-brown);
 }
 
+#entree {
+  background-color: var(--cosmic-latte);
+  border: var(--walnut-brown) 1px solid;
+  color: var(--walnut-brown);
+  padding: 6px;
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+#entree:focus{
+  outline: none;
+}
