@@ -40,6 +40,11 @@ body{
     transform: translateY(-33vh);
 }
 
+
+canvas{
+    background-color: brown;
+}
+
 .validate-button {
   padding: 15px 400px;
   margin-bottom: 10px;

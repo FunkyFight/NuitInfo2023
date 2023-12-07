@@ -7,9 +7,9 @@
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body onload="draw()">
         <div id="canvas-container">
-
+            <canvas height="500" width="500" id="main-canvas"></canvas>
         </div>
         <div id="content-container">
             <button onclick="showCanvas()">canvas</button>
@@ -19,5 +19,7 @@
         </div>
 
         <script src="script.js"></script>
+        <script src="./utils/canvasRenderer.js"></script>
+        <script src="canvas.js"></script>
     </body>
 </html>
