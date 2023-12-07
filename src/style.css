@@ -5,6 +5,7 @@
     --papaya-whip: #FAEDCD;
     --walnut-brown: #64594E;
     --mantis: #7ABA6B;
+    --cosmic-latte: #FFF7E4;
 }
 
 body{
@@ -13,6 +14,15 @@ body{
     overflow: hidden;
 
     background-color: var(--papaya-whip);
+
+    font-family: "lato", open-sans;
+    color: var(--walnut-brown);
+}
+
+.sous-question {
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
 }
 
 #canvas-container{
@@ -29,13 +39,104 @@ body{
     overflow: hidden;
 
     transition: transform ease-in-out .5s;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
 }
 
 .up{
     transform: translateY(-33vh);
 }
-/* 
 
-/* media queries */
 
-/* les animations */
+canvas{
+    background-color: brown;
+}
+
+.question {
+    font-size: 4em;
+    margin: 0px;
+
+    text-align: center;
+}
+
+.validate-button {
+    padding: 15px 400px;
+    margin-bottom: 10px;
+    color: var(--walnut-brown);
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+
+    background-color: transparent;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.validate-button {
+  border: 1px solid transparent;
+  -webkit-transition: all 0.4s cubic-bezier(0.5, 0.24, 0, 1);
+  transition: all 0.4s cubic-bezier(0.5, 0.24, 0, 1);
+}
+
+.validate-button::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: -1;
+  width: 0%;
+  height: 2px;
+  background: var(--claret);
+  box-shadow: inset 0px 0px 0px var(--claret);
+  display: block;
+  -webkit-transition: all 0.4s cubic-bezier(0.5, 0.24, 0, 1);
+  transition: all 0.4s cubic-bezier(0.5, 0.24, 0, 1);
+}
+.validate-button:hover::before {
+  width: 100%;
+}
+.validate-button::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1;
+  width: 0%;
+  height: 2px;
+  background: var(--claret);
+  -webkit-transition: all 0.4s cubic-bezier(0.7, 0.25, 0, 1);
+  transition: all 0.4s cubic-bezier(0.7, 0.25, 0, 1);
+}
+
+/*OK*/
+.validate-button:hover::after {
+  width: 100%;
+}
+
+/*OK*/
+.validate-button:hover {
+  border-left: 2px solid var(--claret);
+  border-right: 2px solid var(--claret);
+  color: var(--walnut-brown);
+}
+
+#entree {
+  background-color: var(--cosmic-latte);
+  border: var(--walnut-brown) 1px solid;
+  color: var(--walnut-brown);
+  padding: 6px;
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+#entree:focus{
+  outline: none;
+}
