@@ -51,7 +51,7 @@
         "type": "entry",
         "question": "Estimez les émissions de gaz à effet de serre d’un trajet de 12 km en voiture à essence  (en kg) !",
         "answer": "1.7 kg/trajet",
-        "truth": "<div class ='pkpasmdr'><a href='https://www.vroomly.com/blog/emissions-co2-voiture-normes-taxes-simulateur/#:~:text=Ainsi%2C%201%20litre%20de%20Diesel,diff%C3%A9rents%20pour%20une%20voiture%20essence.'>Voici comment trouver le taux de CO2 rejeté</a></div>"
+        "truth": "<div class ='pkpasmdr'><a href='https://www.vroomly.com/blog/emissions-co2-voiture-normes-taxes-simulateur/#:~:text=Ainsi%2C%201%20litre%20de%20Diesel,diff%C3%A9rents%20pour%20une%20voiture%20essence.'>1.7 kg de CO2. <br/>Voici comment trouver le taux de CO2 rejeté</a></div>"
     },
     {
         "type": "yesno",
