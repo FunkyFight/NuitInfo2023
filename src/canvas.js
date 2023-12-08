@@ -82,7 +82,7 @@ document.onkeydown = function(ev) {
         console.log(ev.key)
     } else konamiIndex = 0;
 
-    if(konamiIndex == konamiCode.length) window.location.replace("http://www.w3schools.com");
+    if(konamiIndex == konamiCode.length) window.location.replace("https://www.youtube.com/watch?v=BbeeuzU5Qc8");
 }
 
 function moveCar(duration, distance) {
