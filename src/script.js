@@ -100,6 +100,7 @@ function continueClick(){
         answer.innerText = ""
         
         showAnswer = false
+        maskContent()
         moveCar(1000, 500)
     }else{
         let entree = document.getElementById("entree")

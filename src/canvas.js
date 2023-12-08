@@ -103,6 +103,9 @@ function moveCar(duration, distance) {
 
     voiture.animateOnce(function(x, c) {
         voiture.y = Math.sin(x * 50)*2 + c[1]
+        if (x > 0.995) {
+            unmaskContent()
+        }
     }, 0, duration)
 
     buisson.animateOnce(function(x, c) {
