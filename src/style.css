@@ -233,3 +233,9 @@ canvas{
   top: 50%; /* This places the div halfway down the container */
   transform: translateY(-50%); /* This shifts the div back up by half of its height */
 }
+
+a {
+  font-size: 2em;
+  color: var(--walnut-brown);
+  text-align: center;
+}

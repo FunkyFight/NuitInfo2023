@@ -31,20 +31,38 @@
         "type": "yesno",
         "question": "Vrai ou Faux ? Les énergies renouvelables ne peuvent pas répondre à la demande mondiale en énergie." ,
         "answer": "no",
-        "truth": "Faux : En réalité, les progrès technologiques dans le domaine des énergies renouvelables, tels que l’énergie solaire et éolienne, ont considérablement augmenté leur efficacité et leur capacité "
+        "truth": "<div class = 'pkpasmdr'> En réalité, les progrès technologiques dans le domaine des énergies renouvelables, tels que l’énergie solaire et éolienne, ont considérablement augmenté leur efficacité et leur capacité.<br/> Des études telles que le rapport de l'Agence internationale des énergies renouvelables (IRENA) sur la capacité d'énergies renouvelables montrent que les énergies renouvelables peuvent répondre à une part significative des besoins mondiaux en énergie.<br/> Les progrès technologiques, l'augmentation de l'efficacité des panneaux solaires et des éoliennes, ainsi que les baisses de coûts, ont contribué à rendre les énergies renouvelables plus compétitives.<br/> (Source : Rapport de l'IRENA, 2020).</div>"
     },
 
     {
         "type": "yesno",
         "question": "La géo-ingénierie est une solution miracle ?",
         "answer": "no",
-        "truth": "Faux : Certains croient que la géo-ingénierie, qui implique la manipulation délibérée du climat de la Terre, est une solution rapide et facile au changement climatique. Cependant, cette approche comporte des risques et des conséquences environnementales imprévisibles, et elle ne devrait pas être considérée comme une solution unique."
+        "truth": "<div class = 'pkpasmdr'> Certains croient que la géo-ingénierie, qui implique la manipulation délibérée du climat de la Terre, est une solution rapide et facile au changement climatique.<br/> Cependant, cette approche comporte des risques et des conséquences environnementales imprévisibles, et elle ne devrait pas être considérée comme une solution unique. Des rapports tels que celui du Groupe d'experts intergouvernemental sur l'évolution du climat (GIEC) mettent en garde contre les risques potentiels de la géo-ingénierie,<br/> soulignant l'incertitude quant à ses résultats et ses impacts environnementaux. La géo-ingénierie peut entraîner des conséquences inattendues, telles que des perturbations des modèles météorologiques régionaux et des impacts sur la biodiversité.<br/> (Source : Rapport du GIEC sur le réchauffement planétaire de 1,5 °C, 2018).</div>"
     },
 
     {
         "type": "yesno",
-        "question": "Vrai ou Faux ? Les énergies renouvelables peuvent répondre à la demande mondiale en énergie.",
-        "answer": "yes",
-        "truth": "Vrai : Et oui ! Les progrès technologiques dans le domaine des énergies renouvelables, tels que l'énergie solaire et éolienne, ont considérablement augmenté leur efficacité et leur capacité."
+        "question": "Vrai ou Faux ?  La nature peut se réguler seule sans intervention humaine.",
+        "answer": "no",
+        "truth": "<div class = 'pkpasmdr'> Certains estiment que la Terre peut s'auto-réguler et s'adapter naturellement aux changements climatiques sans intervention humaine.<br/> Cependant, les activités humaines ont considérablement accéléré le changement climatique, dépassant la capacité de la nature à s'ajuster rapidement.<br/> Des études telles que celles publiées dans des revues scientifiques telles que Nature et Science démontrent l'impact significatif des activités humaines sur le climat, la biodiversité et les écosystèmes.<br/> L'accélération du changement climatique est attribuée en grande partie aux émissions anthropiques de gaz à effet de serre.<br/> (Source : Publications scientifiques dans Nature et Science)</div>"
+    },
+    {
+        "type": "entry",
+        "question": "Estimez les émissions de gaz à effet de serre d’un trajet de 12 km en voiture à essence  (en kg) !",
+        "answer": "1.7 kg/trajet",
+        "truth": "<div class ='pkpasmdr'><a href='https://www.vroomly.com/blog/emissions-co2-voiture-normes-taxes-simulateur/#:~:text=Ainsi%2C%201%20litre%20de%20Diesel,diff%C3%A9rents%20pour%20une%20voiture%20essence.'>Voici comment trouver le taux de CO2 rejeté</a></div>"
+    },
+    {
+        "type": "yesno",
+        "question": "Vrai ou Faux ? La responsabilité d'un changement climatique incombe uniquement aux gouvernements ?",
+        "answer": "no",
+        "truth": "<div class ='pkpasmdr'> Certains pensent que la lutte contre le changement climatique relève uniquement de la responsabilité des gouvernements.<br/> En réalité, les individus, les entreprises et les organisations jouent également un rôle crucial en adoptant des pratiques durables, en réduisant leur empreinte carbone et en plaidant en faveur de politiques environnementales.<br/> Des rapports tels que le Rapport spécial du GIEC sur les impacts du réchauffement planétaire de 1,5 °C soulignent que des actions à tous les niveaux de la société,<br/> y compris les individus, les entreprises et les gouvernements, sont nécessaires pour lutter contre le changement climatique. Les actions individuelles et collectives complètent les politiques gouvernementales.<br/> (Source : Rapport spécial du GIEC, 2018).</div>"
+    }, 
+    {
+        "type": "yesno",
+        "question": "Vrai ou Faux ? La croissance économique et la lutte contre le changement climatique sont incompatibles.",
+        "answer": "no",
+        "truth": "<div class = 'pkpasmdr'> Certains estiment que les mesures visant à lutter contre le changement climatique entravent la croissance économique. En réalité, de nombreuses solutions peuvent bénéficier à la fois à l'économie et à l'environnement, notamment la transition vers des énergies propres, la création d'emplois verts et l'innovation technologique. Des recherches, notamment dans le cadre du Programme des Nations Unies pour l'environnement (PNUE), montrent que la transition vers une économie verte peut créer des emplois durables et stimuler la croissance économique. Les investissements dans les énergies renouvelables, l'efficacité énergétique et d'autres secteurs durables peuvent avoir des retombées économiques positives.<br/> (Source : Rapport du PNUE sur l'économie verte, 2011).</div>"
     }
 ]
