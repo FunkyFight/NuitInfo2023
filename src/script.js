@@ -96,23 +96,51 @@ function continueClick(){
         questionId+=1
         questionId%=questions.length
         setQuestion(questions[questionId])
+
+        answer.innerText = ""
         
         showAnswer = false
     }else{
         let entree = document.getElementById("entree")
         let yesnoButtons = document.getElementById("yesno-buttons")
         let answerContainer = document.getElementById("answer-container")
+        let answer = document.getElementById("answer")
         
 
         entree.style.display = "none"
         yesnoButtons.style.display = "none"
-        answerContainer.style.display = "flex"
 
+        answerContainer.style.display = "block"
 
+        question = questions[questionId]
+        if(question.type == "yesno"){
+            if(yesnoSelection == question.answer){
+                answer.innerText = "Bravo, tu connais la bonne réponse !"
+            }else{
+                answer.innerText = "Raté, voici la véritable réponse :"
+            }
+        }
+        else if(question.type == "entry"){
+            if(entree.value == question.answer){
+                answer.innerText = "Bravo, tu a trouvé la valeur exacte !"
+            }else if (question.answer * 0.9 < entree.value && entree.value  < question.answer* 1.1){
+                answer.innerText = "Bravo, tu a presque trouvé !"
+            }else{
+                answer.innerText = "Raté, voici la véritable réponse :"
+            }
+        }
         showAnswer = true
     }
     
 }
 
+function maskContent(){
+    let contentContainer = document.getElementById("content-container")
+    contentContainer.classList.add("hide-child")
+}
+function unmaskContent(){
+    let contentContainer = document.getElementById("content-container")
+    contentContainer.classList.remove("hide-child")
+}
 
 showCanvas()

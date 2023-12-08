@@ -45,12 +45,25 @@ body{
     justify-content: flex-start;
     flex-direction: column;
     position: relative;
+
+    /*transition: opacity ease-in-out .5s;*/
 }
 
+.hide-child *{
+    display: none!important;
+}
 .up{
     transform: translateY(-33vh);
 }
 
+@media (max-width: 768px) {
+    #content-container{
+        height: 100vh;
+    }
+    .up{
+        transform: translateY(-66vh);
+    }
+}
 
 canvas{
     background-color: var(--cosmic-latte);
@@ -87,7 +100,6 @@ canvas{
     text-decoration: none;
     display: inline-block;
     
-
     background-color: transparent;
 
     position: absolute;
@@ -203,4 +215,26 @@ canvas{
 .no-button-activated{
     background-color: var(--dogwood-rose)!important;
     box-shadow: inset var(--claret) 0px 0px 10px;
+}
+
+#answer-container {
+  /*margin: 15px 50px;
+  padding: 10px 10px;*/
+  width: 80%;
+  height: 50%;
+  position: relative;
+}
+
+.pkpasmdr {
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute; /* This enables the use of absolute positioning */
+  top: 50%; /* This places the div halfway down the container */
+  transform: translateY(-50%); /* This shifts the div back up by half of its height */
+}
+
+a {
+  font-size: 2em;
+  color: var(--walnut-brown);
+  text-align: center;
 }
