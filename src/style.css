@@ -51,6 +51,14 @@ body{
     transform: translateY(-33vh);
 }
 
+@media (max-width: 768px) {
+    #content-container{
+        height: 100vh;
+    }
+    .up{
+        transform: translateY(-66vh);
+    }
+}
 
 canvas{
     background-color: var(--cosmic-latte);
