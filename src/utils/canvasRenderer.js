@@ -83,18 +83,18 @@ class CanvasObject {
     }
 
     animateOnce(animation, delay, duration) {
-        let step = 1/duration
-        let current = 0;
+        var step = 1/duration
+        var current = 0;
 
-        let cx = this.x
-        let cy = this.y
-        let crot = this.rotation
+        var cx = this.x
+        var cy = this.y
+        var crot = this.rotation
 
-        let inter = setInterval(() => {
+        var inter = setInterval(() => {
             current += step;
-
+            console.log(current)
             if(current > 1) {
-                clearInterval(inter)
+                return;
             }
 
             animation(easeInOutQuart(current), [cx, cy, crot])
