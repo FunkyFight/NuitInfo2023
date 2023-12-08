@@ -242,3 +242,28 @@ a {
 #answer{
   margin: 0px 0px!important;
 }
+
+
+@media (max-width: 600px) {
+    #question{
+        font-size: 2em;
+    }
+    #answer{
+        font-size: 1.5em;
+    }
+    #answer-container{
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 460px) {
+    #question{
+        font-size: 1.5em;
+    }
+    #answer{
+        font-size: 1.2em;
+    }
+    #answer-container{
+        font-size: 1em;
+    }
+}
