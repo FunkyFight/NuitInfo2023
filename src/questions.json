@@ -10,14 +10,14 @@
         "type": "entry",
         "question": "Estimez l’investissement mondial en énergies fossiles (en milliards) en 2022 :",
         "answer": "827 or 1027",
-        "truth": "<div class ='pkpasmdr'><h3>Enorme n'est-ce pas ? Et c'est très loin de l'investissement dans les énergies renouvelables en 2022, <br/> qui n'était que de 462 milliards, soit presque 2 fois moins ! <br/> Cela montre bien qu'il reste du chemin à parcourir afin de s'affranchir des énergies fossiles, les plus polluantes, <br/> pour s'ouvrir aux énergies renouvelables. <br/><br/> Cependant, il y a du progrès, et de plus en plus de pays investissent dans les énergies renouvelables <br/> (par exemple, 3,4 Mds€ en France en 2022, soit 50% de plus qu'en 2021 !).</h3></div>"
+        "truth": "<div class ='pkpasmdr'><h3>Enorme n'est-ce pas ? Et c'est très loin de l'investissement dans les énergies renouvelables en 2022, <br/> qui n'était que de 462 milliards, soit presque 2 fois moins ! <br/> Cela montre bien qu'il reste du chemin à parcourir afin de s'affranchir des énergies fossiles, les plus polluantes, <br/> pour s'ouvrir aux énergies renouvelables. <br/> Cependant, il y a du progrès, et de plus en plus de pays investissent dans les énergies renouvelables <br/> (par exemple, 3,4 Mds€ en France en 2022, soit 50% de plus qu'en 2021 !).</h3></div>"
     }, 
 
     {
         "type": "yesno",
         "question": "Vrai ou Faux ? Les hivers très rigoureux vont disparaître",
         "answer": "no",
-        "truth": "<div class ='pkpasmdr'><h3>Faux: Les experts s’accordent pour dire que le changement climatique a un impact conséquent sur le Gulf Stream,<br/> qui devient de plus en plus étanche. Ce phénomène météorologique sépare les courants froids venus de l’Arctique et du Pôle Nord des courants plus tempérés de l’hémisphère nord.<br/> Avec le réchauffement climatique, son action devient moins efficace, et des conséquences pourraient survenir notamment en Europe, avec des épisodes de froid polaire. Ainsi, attendre la fin de l'hiver en se disant que l'année prochaine ça ira mieux est complêtement inutile !</h3></div>"
+        "truth": "<div class ='pkpasmdr'><h3>Faux: Les experts s’accordent pour dire que le changement climatique a un impact conséquent sur le Gulf Stream, qui devient de plus en plus étanche. Ce phénomène météorologique sépare les courants froids venus de l’Arctique et du Pôle Nord des courants plus tempérés de l’hémisphère nord.<br/> Avec le réchauffement climatique, son action devient moins efficace, et des conséquences pourraient survenir notamment en Europe, avec des épisodes de froid polaire. Ainsi, attendre la fin de l'hiver en se disant que l'année prochaine ça ira mieux est complêtement inutile !</h3></div>"
     }, 
 
     {

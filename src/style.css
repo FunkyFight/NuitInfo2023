@@ -226,15 +226,19 @@ canvas{
 }
 
 .pkpasmdr {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5px;
+  margin-right: 5px;
   position: absolute; /* This enables the use of absolute positioning */
   top: 50%; /* This places the div halfway down the container */
   transform: translateY(-50%); /* This shifts the div back up by half of its height */
 }
 
 a {
-  font-size: 2em;
+  font-size: 1.5em;
   color: var(--walnut-brown);
   text-align: center;
+}
+
+#answer{
+  margin: 0px 0px!important;
 }
