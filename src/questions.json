@@ -3,7 +3,7 @@
         "type": "yesno",
         "question": "Vrai ou Faux ? Le changement arrivera quelque soit les actions de l’Homme. L’Homme n’a pas d’impact sur le climat.",
         "answer": "no",
-        "truth": "<div class ='pkpasmdr'><h3>Faux : « Il est sans équivoque que l'influence humaine a réchauffé l'atmosphère, l’océan et les terres. <br/> [...]. Les augmentations des concentrations de gaz à effet de serre (GES) bien mélangés dans l'atmosphère, observées depuis <br/> environ 1750, résultent, sans équivoque, des activités humaines. » -6ème Rapport du GIEC, 2021. <br/><br/> Ainsi, il est du devoir de l'Homme de penser à ses actions, et aux conséquences qu'elles pourraient causer ! <br/> Il faut par exemple privilégier des modes de transport qui provoquent peu d'émission de CO2, ou penser à moins consommer. Ne rien faire ne changera donc rien, et ne fera qu'empirer les choses !</h3></div>"
+        "truth": "<div class ='pkpasmdr'><h3>« Il est sans équivoque que l'influence humaine a réchauffé l'atmosphère, l’océan et les terres. <br/> [...]. Les augmentations des concentrations de gaz à effet de serre (GES) bien mélangés dans l'atmosphère, observées depuis <br/> environ 1750, résultent, sans équivoque, des activités humaines. » -6ème Rapport du GIEC, 2021. <br/><br/> Ainsi, il est du devoir de l'Homme de penser à ses actions, et aux conséquences qu'elles pourraient causer ! <br/> Il faut par exemple privilégier des modes de transport qui provoquent peu d'émission de CO2, ou penser à moins consommer. Ne rien faire ne changera donc rien, et ne fera qu'empirer les choses !</h3></div>"
     },
 
     {
@@ -17,14 +17,14 @@
         "type": "yesno",
         "question": "Vrai ou Faux ? Les hivers très rigoureux vont disparaître",
         "answer": "no",
-        "truth": "<div class ='pkpasmdr'><h3>Faux: Les experts s’accordent pour dire que le changement climatique a un impact conséquent sur le Gulf Stream, qui devient de plus en plus étanche. Ce phénomène météorologique sépare les courants froids venus de l’Arctique et du Pôle Nord des courants plus tempérés de l’hémisphère nord.<br/> Avec le réchauffement climatique, son action devient moins efficace, et des conséquences pourraient survenir notamment en Europe, avec des épisodes de froid polaire. Ainsi, attendre la fin de l'hiver en se disant que l'année prochaine ça ira mieux est complêtement inutile !</h3></div>"
+        "truth": "<div class ='pkpasmdr'><h3>Les experts s’accordent pour dire que le changement climatique a un impact conséquent sur le Gulf Stream, qui devient de plus en plus étanche. Ce phénomène météorologique sépare les courants froids venus de l’Arctique et du Pôle Nord des courants plus tempérés de l’hémisphère nord.<br/> Avec le réchauffement climatique, son action devient moins efficace, et des conséquences pourraient survenir notamment en Europe, avec des épisodes de froid polaire. Ainsi, attendre la fin de l'hiver en se disant que l'année prochaine ça ira mieux est complêtement inutile !</h3></div>"
     }, 
 
     {
         "type": "yesno",
         "question": "Vrai ou Faux ? La France sera peu touchée par le changement climatique",
         "answer": "no",
-        "truth": "<div class ='pkpasmdr'><h3>Faux. Il s’agit d’une idée reçue : si le réchauffement climatique va provoquer des catastrophes humanitaires dans les régions déjà arides, les pays plus tempérés comme la France en subiront aussi les effets. <br/> La destruction de la faune et de la flore de nombreuses régions, telles que les vignes du Bordelais ou les espèces végétales en haute montagne, pourrait advenir.</h3></div/>"
+        "truth": "<div class ='pkpasmdr'><h3>Il s’agit d’une idée reçue : si le réchauffement climatique va provoquer des catastrophes humanitaires dans les régions déjà arides, les pays plus tempérés comme la France en subiront aussi les effets. <br/> La destruction de la faune et de la flore de nombreuses régions, telles que les vignes du Bordelais ou les espèces végétales en haute montagne, pourrait advenir.</h3></div/>"
     },
 
     {
