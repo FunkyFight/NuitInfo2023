@@ -115,4 +115,13 @@ function continueClick(){
 }
 
 
+function maskContent(){
+    let contentContainer = document.getElementById("content-container")
+    contentContainer.classList.add("hide-child")
+}
+function unmaskContent(){
+    let contentContainer = document.getElementById("content-container")
+    contentContainer.classList.remove("hide-child")
+}
+
 showCanvas()

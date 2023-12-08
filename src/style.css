@@ -45,8 +45,13 @@ body{
     justify-content: flex-start;
     flex-direction: column;
     position: relative;
+
+    /*transition: opacity ease-in-out .5s;*/
 }
 
+.hide-child *{
+    display: none!important;
+}
 .up{
     transform: translateY(-33vh);
 }
