@@ -1,16 +1,19 @@
 function drawSquare(context, x, y, size, color)  {
+    canvas = document.getElementById("main-canvas")
     context.fillStyle=color;
-    context.fillRect(x, y, size, size);
+    context.fillRect(x, y + (canvas.height - 474), size, size);
 }
 
 function drawRectangle(context, x, y, w, h, color) {
+    canvas = document.getElementById("main-canvas")
     context.fillStyle=color;
-    context.fillRect(x, y, w, h);
+    context.fillRect(x, y + (canvas.height - 474), w, h);
     
 }
 
 function drawImage(context, x, y, img, scale) {
-    context.drawImage(img, x, y, img.width*scale, img.height*scale);
+    canvas = document.getElementById("main-canvas")
+    context.drawImage(img, x, y + (canvas.height - 474), img.width*scale, img.height*scale);
     
 }
 

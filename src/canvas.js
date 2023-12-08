@@ -23,7 +23,7 @@ function draw() {
     let context = canvas.getContext("2d")
     const root = new CanvasManager(context, canvas.width, canvas.height)
 
-    bg = new Rectangle(0, 0, 2000, canvas.height, "rgb(0, 151, 230)")
+    bg = new Rectangle(0, -200, 4000, canvas.height, "rgb(0, 151, 230)")
     voiture = new CanvasImage(canvas.width+100, canvas.height - 95, "./img/voiture.png")
     buisson = new CanvasImage(0, canvas.height - 150, "./img/buisson.png")
     buisson2 = new CanvasImage(buisson.image.width * 1.5, canvas.height - 150, "./img/buisson.png")
