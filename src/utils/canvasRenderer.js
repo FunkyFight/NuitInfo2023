@@ -3,14 +3,14 @@ function drawSquare(context, x, y, size, color)  {
     context.fillRect(x, y, size, size);
 }
 
-function drawRectangle(context, x, y, w, h) {
+function drawRectangle(context, x, y, w, h, color) {
     context.fillStyle=color;
     context.fillRect(x, y, w, h);
     
 }
 
-function drawImage(context, x, y, img) {
-    context.drawImage(img, x, y);
+function drawImage(context, x, y, img, scale) {
+    context.drawImage(img, x, y, img.width*scale, img.height*scale);
     
 }
 
@@ -92,9 +92,8 @@ class CanvasObject {
 
         var inter = setInterval(() => {
             current += step;
-            console.log(current)
             if(current > 1) {
-                return;
+                clearInterval(inter);
             }
 
             animation(easeInOutQuart(current), [cx, cy, crot])
@@ -120,9 +119,29 @@ class Square extends CanvasObject {
     }
 }
 
+/**
+ * Rectangle
+ */
+class Rectangle extends CanvasObject {
+
+    constructor(x, y, width, height, color) {
+        super(x, y)
+        this.color = color;
+        this.width = width;
+        this.height = height
+    }
+
+    render(context) {
+        super.render(context)
+        drawRectangle(context, this.x, this.y, this.width, this.height, this.color)
+        this.endRender(context)
+    }
+}
+
 class CanvasImage extends CanvasObject {
 
     image;
+    scale = 1;
     constructor(x, y, url) {
         super(x, y)
         this.url = url;
@@ -139,9 +158,13 @@ class CanvasImage extends CanvasObject {
     render(context) {
         if(this.isLoaded) {
             super.render(context)
-            drawImage(context, this.x, this.y, this.image)
+            drawImage(context, this.x, this.y, this.image, this.scale)
             this.endRender(context)
         }
+    }
+
+    setTheScale(sc) {
+        this.scale = sc;
     }
 }
 
