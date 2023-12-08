@@ -3,12 +3,49 @@
         "type": "yesno",
         "question": "Vrai ou Faux ? Le changement arrivera quelque soit les actions de l’Homme. L’Homme n’a pas d’impact sur le climat.",
         "answer": "no",
-        "truth": "<h4>Faux : « Il est sans équivoque que l'influence humaine a réchauffé l'atmosphère, l’océan et les terres. <br/> [...]. Les augmentations des concentrations de gaz à effet de serre (GES) bien mélangés dans l'atmosphère, observées depuis <br/> environ 1750, résultent, sans équivoque, des activités humaines. » -6ème Rapport du GIEC, 2021. <br/><br/> Ainsi, il est du devoir de l'Homme de penser à ses actions, et aux conséquences qu'elles pourraient causer ! <br/> Il faut par exemple privilégier des modes de transport qui provoquent peu d'émission de CO2, ou penser à moins consommer.</h4>"
+        "truth": "<div class ='pkpasmdr'><h3>Faux : « Il est sans équivoque que l'influence humaine a réchauffé l'atmosphère, l’océan et les terres. <br/> [...]. Les augmentations des concentrations de gaz à effet de serre (GES) bien mélangés dans l'atmosphère, observées depuis <br/> environ 1750, résultent, sans équivoque, des activités humaines. » -6ème Rapport du GIEC, 2021. <br/><br/> Ainsi, il est du devoir de l'Homme de penser à ses actions, et aux conséquences qu'elles pourraient causer ! <br/> Il faut par exemple privilégier des modes de transport qui provoquent peu d'émission de CO2, ou penser à moins consommer. Ne rien faire ne changera donc rien, et ne fera qu'empirer les choses !</h3></div>"
     },
+
     {
         "type": "entry",
         "question": "Estimez l’investissement mondial en énergies fossiles (en milliards) en 2022 :",
         "answer": "827 or 1027",
-        "truth": "<h4>Enorme n'est-ce pas ? Et c'est très loin de l'investissement dans les énergies renouvelables en 2022, <br/> qui n'était que de 462 milliards, soit presque 2 fois moins ! <br/> Cela montre bien qu'il reste du chemin à parcourir afin de s'affranchir des énergies fossiles, les plus polluantes, <br/> pour s'ouvrir aux énergies renouvelables. <br/><br/> Cependant, il y a du progrès, et de plus en plus de pays investissent dans les énergies renouvelables <br/> (par exemple, 3,4 Mds€ en France en 2022, soit 50% de plus qu'en 2021 !).</h4>"
-    }
+        "truth": "<div class ='pkpasmdr'><h3>Enorme n'est-ce pas ? Et c'est très loin de l'investissement dans les énergies renouvelables en 2022, <br/> qui n'était que de 462 milliards, soit presque 2 fois moins ! <br/> Cela montre bien qu'il reste du chemin à parcourir afin de s'affranchir des énergies fossiles, les plus polluantes, <br/> pour s'ouvrir aux énergies renouvelables. <br/><br/> Cependant, il y a du progrès, et de plus en plus de pays investissent dans les énergies renouvelables <br/> (par exemple, 3,4 Mds€ en France en 2022, soit 50% de plus qu'en 2021 !).</h3></div>"
+    }, 
+
+    {
+        "type": "yesno",
+        "question": "Vrai ou Faux ? Les hivers très rigoureux vont disparaître",
+        "answer": "no",
+        "truth": "<div class ='pkpasmdr'><h3>Faux: Les experts s’accordent pour dire que le changement climatique a un impact conséquent sur le Gulf Stream,<br/> qui devient de plus en plus étanche. Ce phénomène météorologique sépare les courants froids venus de l’Arctique et du Pôle Nord des courants plus tempérés de l’hémisphère nord.<br/> Avec le réchauffement climatique, son action devient moins efficace, et des conséquences pourraient survenir notamment en Europe, avec des épisodes de froid polaire. Ainsi, attendre la fin de l'hiver en se disant que l'année prochaine ça ira mieux est complêtement inutile !</h3></div>"
+    }, 
+
+    {
+        "type": "yesno",
+        "question": "Vrai ou Faux ? La France sera peu touchée par le changement climatique",
+        "answer": "no",
+        "truth": "<div class ='pkpasmdr'><h3>Faux. Il s’agit d’une idée reçue : si le réchauffement climatique va provoquer des catastrophes humanitaires dans les régions déjà arides, les pays plus tempérés comme la France en subiront aussi les effets. <br/> La destruction de la faune et de la flore de nombreuses régions, telles que les vignes du Bordelais ou les espèces végétales en haute montagne, pourrait advenir.</h3></div/>"
+    },
+
+    {
+        "type": "yesno",
+        "question": "Vrai ou Faux ? Les énergies renouvelables ne peuvent pas répondre à la demande mondiale en énergie." ,
+        "answer": "no",
+        "truth": "Faux : En réalité, les progrès technologiques dans le domaine des énergies renouvelables, tels que l’énergie solaire et éolienne, ont considérablement augmenté leur efficacité et leur capacité "
+    },
+
+    {
+        "type": "yesno",
+        "question": "La géo-ingénierie est une solution miracle ?",
+        "answer": "no",
+        "truth": "Faux : Certains croient que la géo-ingénierie, qui implique la manipulation délibérée du climat de la Terre, est une solution rapide et facile au changement climatique. Cependant, cette approche comporte des risques et des conséquences environnementales imprévisibles, et elle ne devrait pas être considérée comme une solution unique."
+    },
+
+    {
+        "type": "yesno",
+        "question": "Vrai ou Faux ? Les énergies renouvelables peuvent répondre à la demande mondiale en énergie.",
+        "answer": "yes",
+        "truth": "Vrai : Et oui ! Les progrès technologiques dans le domaine des énergies renouvelables, tels que l'énergie solaire et éolienne, ont considérablement augmenté leur efficacité et leur capacité."
+    },
+
 ]

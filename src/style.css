@@ -206,11 +206,17 @@ canvas{
 }
 
 #answer-container {
-  margin: 15px 50px;
-  padding: 10px 10px;
-  width: 100%;
-  height: 100%;
-  background-color: red;
-  text-align: center;
-  
+  /*margin: 15px 50px;
+  padding: 10px 10px;*/
+  width: 80%;
+  height: 50%;
+  position: relative;
+}
+
+.pkpasmdr {
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute; /* This enables the use of absolute positioning */
+  top: 50%; /* This places the div halfway down the container */
+  transform: translateY(-50%); /* This shifts the div back up by half of its height */
 }
