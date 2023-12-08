@@ -86,6 +86,7 @@ canvas{
     position: relative;
     text-decoration: none;
     display: inline-block;
+    
 
     background-color: transparent;
 
@@ -191,4 +192,9 @@ canvas{
 
 .button3:hover{
   background-color: var(--dogwood-rose);
+}
+
+.h3 {
+  color: var(--walnut-brown);
+  font-family: 'Lato', sans-serif;
 }
