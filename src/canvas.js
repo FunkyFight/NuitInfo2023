@@ -65,6 +65,7 @@ function draw() {
     setInterval(function() {
         canvas.setAttribute("width", canvasContainer.offsetWidth)
         canvas.setAttribute("height", canvasContainer.offsetHeight)
+        voiture.x = canvasContainer.offsetWidth * 0.5 - voiture.image.width/2
         root.renderAll()
         
     }, 10)
