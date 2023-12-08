@@ -31,13 +31,13 @@ function draw() {
     
 }
 
+let konamiCode = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "b", "a", "Enter"]
+let konamiIndex = 0;
 document.onkeydown = function(ev) {
-    switch(ev.code) {
-        case "ArrowRight":
-            voiture.move(5, 0)
-            break;
-        case "ArrowLeft":
-            voiture.move(-5, 0)
-            break;
-    }
+    if(ev.key === konamiCode[konamiIndex]) {
+        konamiIndex++;
+        console.log(ev.key)
+    } else konamiIndex = 0;
+
+    if(konamiIndex == konamiCode.length) window.location.replace("http://www.w3schools.com");
 }
