@@ -212,3 +212,13 @@ canvas{
     background-color: var(--dogwood-rose)!important;
     box-shadow: inset var(--claret) 0px 0px 10px;
 }
+
+#answer-container {
+  margin: 15px 50px;
+  padding: 10px 10px;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  text-align: center;
+  
+}

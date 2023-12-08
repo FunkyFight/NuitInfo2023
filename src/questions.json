@@ -1,14 +1,14 @@
 [
     {
         "type": "yesno",
-        "question": "Est-ce que la pollution ça pollue ?",
-        "answer": "yes",
-        "truth": "<h1>Something</h1>"
+        "question": "Vrai ou Faux ? Le changement arrivera quelque soit les actions de l’Homme. L’Homme n’a pas d’impact sur le climat.",
+        "answer": "no",
+        "truth": "<h4>Faux : « Il est sans équivoque que l'influence humaine a réchauffé l'atmosphère, l’océan et les terres. <br/> [...]. Les augmentations des concentrations de gaz à effet de serre (GES) bien mélangés dans l'atmosphère, observées depuis <br/> environ 1750, résultent, sans équivoque, des activités humaines. » -6ème Rapport du GIEC, 2021. <br/><br/> Ainsi, il est du devoir de l'Homme de penser à ses actions, et aux conséquences qu'elles pourraient causer ! <br/> Il faut par exemple privilégier des modes de transport qui provoquent peu d'émission de CO2, ou penser à moins consommer.</h4>"
     },
     {
         "type": "entry",
-        "question": "Est-ce que la pollution ça pollue ? 2",
-        "answer": "yes",
-        "truth": "<h1>Something</h1>"
+        "question": "Estimez l’investissement mondial en énergies fossiles (en milliards) en 2022 :",
+        "answer": "827 or 1027",
+        "truth": "<h4>Enorme n'est-ce pas ? Et c'est très loin de l'investissement dans les énergies renouvelables en 2022, <br/> qui n'était que de 462 milliards, soit presque 2 fois moins ! <br/> Cela montre bien qu'il reste du chemin à parcourir afin de s'affranchir des énergies fossiles, les plus polluantes, <br/> pour s'ouvrir aux énergies renouvelables. <br/><br/> Cependant, il y a du progrès, et de plus en plus de pays investissent dans les énergies renouvelables <br/> (par exemple, 3,4 Mds€ en France en 2022, soit 50% de plus qu'en 2021 !).</h4>"
     }
 ]

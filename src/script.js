@@ -106,7 +106,7 @@ function continueClick(){
 
         entree.style.display = "none"
         yesnoButtons.style.display = "none"
-        answerContainer.style.display = "flex"
+        answerContainer.style.display = "block"
 
 
         showAnswer = true
