@@ -6,7 +6,9 @@
         <title>Nuit de l'info 2023</title>
         <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/">
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="style.css">
     </head>
@@ -15,14 +17,22 @@
             <canvas height="500" width="500" id="main-canvas"></canvas>
         </div>
         <div id="content-container">
-            <div>
+            <div style="display: none;">
                 <button onclick="showCanvas()">canvas</button>
                 <button onclick="showContent()">content</button>
             </div>
-            <h2 class="question">Question du minijeu</h2>
-            <input type="text" name="Entrée" id="entree">
-            <button href="#" class="validate-button">Continuer</button>
+            <h2 id="question">D'après vous, quel est la moyenne de CO2 émise par un avion sur un trajet moyen ?</h2>
+            <input type="text" name="Entrée" id="entree" onclick="entreeClick()">
+            <div id="yesno-buttons">
+                <button id="yesButton" onclick="yesClick()">Vrai</button>
+                <button id="noButton" onclick="noClick()">Faux</button>
+            </div>
+            <div id="answer-container">
+
+            </div>
+            <button href="#" class="validate-button" onclick="continueClick()">Continuer</button>
         </div>
+
 
         <script src="script.js"></script>
         <script src="./utils/canvasRenderer.js"></script>
