@@ -56,7 +56,7 @@ canvas{
     background-color: var(--cosmic-latte);
 }
 
-.question {
+#question {
     font-size: 2.5em;
     margin: 25px;
 
@@ -141,6 +141,7 @@ canvas{
     color: var(--walnut-brown);
 }
 
+
 #entree {
   background-color: var(--cosmic-latte);
   border: var(--walnut-brown) 1px solid;
@@ -150,16 +151,16 @@ canvas{
   font-size: 1.5em;
 }
 
-#entree:focus #button3:focus #button2:focus{
+#entree:focus #noButton:focus #yesButton:focus{
   outline: none;
 }
 
-.Buttons {
+#yesno-buttons {
   display: flex;
 
 }
 
-.button2 {
+#yesButton {
   padding: 20px;
   text-align: center;
   text-decoration: none;
@@ -172,7 +173,7 @@ canvas{
   border-style: none;
 }
 
-.button3 { 
+#noButton { 
   padding: 20px;
   text-align: center;
   text-decoration: none;
@@ -185,10 +186,20 @@ canvas{
   border-style: none;
 }
 
-.button2:hover{
+#yesButton:hover{
   background-color: var(--pistachio);
 }
 
-.button3:hover{
+#noButton:hover{
   background-color: var(--dogwood-rose);
+}
+
+.yes-button-activated{
+    background-color: var(--pistachio)!important;
+    box-shadow: inset var(--mantis) 0px 0px 10px;
+}
+
+.no-button-activated{
+    background-color: var(--dogwood-rose)!important;
+    box-shadow: inset var(--claret) 0px 0px 10px;
 }

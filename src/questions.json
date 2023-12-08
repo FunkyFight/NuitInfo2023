@@ -1,0 +1,14 @@
+[
+    {
+        "type": "yesno",
+        "question": "Est-ce que la pollution ça pollue ?",
+        "answer": "yes",
+        "truth": "<h1>Something</h1>"
+    },
+    {
+        "type": "entry",
+        "question": "Est-ce que la pollution ça pollue ? 2",
+        "answer": "yes",
+        "truth": "<h1>Something</h1>"
+    }
+]
