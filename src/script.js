@@ -145,4 +145,15 @@ function unmaskContent(){
     contentContainer.classList.remove("hide-child")
 }
 
+let konamiCode = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "b", "a", "Enter"]
+let konamiIndex = 0;
+document.onkeydown = function(ev) {
+    if(ev.key === konamiCode[konamiIndex]) {
+        konamiIndex++;
+        console.log(ev.key)
+    } else konamiIndex = 0;
+
+    if(konamiIndex == konamiCode.length) window.location.replace("https://www.youtube.com/watch?v=BbeeuzU5Qc8");
+}
+
 showCanvas()
